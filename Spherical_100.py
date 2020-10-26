@@ -309,7 +309,7 @@ for o in range(0,5):
 #Excel Output to 'locationout_3D.xls'
 for o in range(0,5):
     for q in range(0,6):
-        k = (0)*6+q
+        k = (o)*6+q
         sheet2.write(k,0,280+o*10)
         sheet2.write(k,1,0+q*5e-11)
         sheet2.write(k,2,TA[o][q][0])
