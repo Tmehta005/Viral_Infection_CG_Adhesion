@@ -18,7 +18,7 @@ def MA(Density,Counter,num_iterations,Window):
 def UserPlot2DScatter(x_pos, y_pos):
     plt.scatter(x_pos,y_pos, marker='o')
     pp.savefig()
-#    plt.show()
+    plt.show()
     return;
 def UserPlot2Dline(nodenumber, z_pos,title,xlabel,ylabel):
     plt.plot(nodenumber,z_pos)
@@ -27,7 +27,7 @@ def UserPlot2Dline(nodenumber, z_pos,title,xlabel,ylabel):
     plt.ylabel(ylabel)
     plt.grid()
     pp.savefig()
-#    plt.show()
+    plt.show()
     return;
 def QuiverPlot2D(x_pos, y_pos, x_direct, y_direct, color):
     fig, ax = plt.subplots()
@@ -37,7 +37,7 @@ def QuiverPlot2D(x_pos, y_pos, x_direct, y_direct, color):
     ax.quiver(x_pos, y_pos, x_direct, y_direct,color)
     ax.set_title('Quiver plot with Force Vactors at Each of the Nodes')
     pp.savefig()
-#    plt.show()
+    plt.show()
     return;
 def QuiverPlot3D(x_pos, y_pos, z_pos, x_direct, y_direct, z_direct, color):
     fig, ax = plt.subplots()
@@ -47,7 +47,7 @@ def QuiverPlot3D(x_pos, y_pos, z_pos, x_direct, y_direct, z_direct, color):
     ax.quiver(x_pos, y_pos, z_pos, x_direct, y_direct, z_direct,color)
     ax.set_title('Quiver plot with Force Vactors at Each of the Nodes')
     pp.savefig()
-#    plt.show()
+    plt.show()
     fig = plt.figure()
     return;
 def UserPlot3D(x_pos, y_pos, z_pos):
@@ -55,7 +55,7 @@ def UserPlot3D(x_pos, y_pos, z_pos):
     ax = fig.add_subplot(111, projection='3d')
     ax.scatter(x_pos, y_pos, z_pos, marker='o')
     pp.savefig()
-#    plt.show()
+    plt.show()
     return;
 def UserPlot3DSurf(x_pos, y_pos, z_pos):
     fig = plt.figure()
@@ -63,6 +63,6 @@ def UserPlot3DSurf(x_pos, y_pos, z_pos):
     surf = ax.plot_trisurf(x_pos, y_pos, z_pos, cmap=cm.jet, linewidth=0.1)
     fig.colorbar(surf, shrink=0.5, aspect=5)
     pp.savefig()
-#    plt.show()
+    plt.show()
     return;
 #*******************************************************************************************
