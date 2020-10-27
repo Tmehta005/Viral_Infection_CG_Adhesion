@@ -1,8 +1,8 @@
-# Viral Infection CG Adhesion
+# viral infection coarse grain adhesion model
 
 ## Background
 
-This code provides a multi-scale modelling framework based on the biophysical mechanisms associated with the attachment of the virus with the host cell.  The unified approach helps to characterize the time scales associated with cellular mechanisms associated with the virus attack. This code uses coarse-G=grain dynamice Model for virus-host cell interactions during cellular adhesion and entry. The square section of the membrane domain is represented as the beads connected with springs. Each of the bead is connected to its 6 neighbors, except for the ones at the end. Virus is represented as an analytical spherical surface.
+This code provides a multi-scale modelling framework based on the biophysical mechanisms associated with the attachment of the virus with the host cell.  The unified approach helps to characterize the time scales associated with cellular mechanisms associated with the virus attack. This code uses coarse grained dynamic model for virus host cell interactions during cellular adhesion and entry. The square section of the membrane domain is represented as the beads connected with springs. Each of the bead is connected to its 6 neighbors, except for the ones at the end. Virus is represented as an analytical spherical surface.
 
 ## Code Description
 
@@ -10,6 +10,6 @@ spherical_100.py: It is the driver for the case of spherical virions, like Coron
 
 ## Output
 
-Adhesion dynamics and effectiveness are calculated based on the large amounts of bead location data. The output file has two different results - (a) the time-dependent average proximity of the membrane from the virus for each of the Temperature-Tension combinations (b) The steadystate values of the proximity index and time to attach.
+Adhesion dynamics and effectiveness are calculated based on the large amounts of bead location data. The output file has two different results - (a) the time-dependent average proximity of the membrane from the virus for each of the Temperature-Tension combinations (b) The steady state values of the proximity index and time to attach.
 
 
