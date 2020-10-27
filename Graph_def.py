@@ -1,14 +1,13 @@
-#Author: Tanya Mehta, Parkland High School
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 from matplotlib import pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages 
 #*************************************************************************************
-#Open files for graphocal output
+#open files for graphocal output
 pp = PdfPages('GraphOut.pdf')
 #Fuctions for creating different types of plots and analysis
-#To show th plot on the console during the calculations, activarecommand plt.show() below
+#to show the plot on the console during the calculations, activarecommand plt.show() below
 def MA(Density,Counter,num_iterations,Window):
     Density1 = np.convolve(Counter, np.ones([Window]), mode='valid')/Window
     for i in range(0,num_iterations-Window):
