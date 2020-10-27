@@ -1,4 +1,4 @@
-#cell Membranes represnted as 2 Dimensional network with 100 beads (10x10) sheets. Cell Membrane is moving, Virus Membrane is fixed
+#cell membranes represnted as 2 Dimensional network with 100 beads (10x10) sheets. Cell membrane is moving, virus membrane is fixed
 #starting Position for Cell membrane at z=0
 import pandas as pd
 import math
